@@ -16,8 +16,8 @@ client.on('message', message => {
   	}
 });
 bot.on('message', message => {
-  if (message.content.startsWith("!dynocontains")) {
-        message.reply('Dyno is known to secretly contain a stegosauros');
+  if (message.content.startsWith === "!dynocontains") {
+      message.reply('Dyno is known to secretly contain a stegosauros');
   }
 });            
 
