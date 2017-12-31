@@ -6,13 +6,13 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === '!ping') {
+    if (message.content === '!toasty') {
     	message.reply('pong');
   	}
 });
 client.on('message', message => {
     if (message.content === '!dyno') {
-    	message.reply('is a stegosaurous');
+    	message.reply('toasty will better burn.');
   	}
 });
 
