@@ -7,12 +7,12 @@ client.on('ready', () => {
 
 client.on('message', message => {
     if (message.content === '!toasty') {
-    	message.reply('pong');
+    	message.reply('toasty will better burn.');
   	}
 });
 client.on('message', message => {
     if (message.content === '!dyno') {
-    	message.reply('toasty will better burn.');
+    	message.reply('Dyno is known to secretly be a stegosauros');
   	}
 });
 
