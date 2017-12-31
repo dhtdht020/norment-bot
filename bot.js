@@ -16,7 +16,7 @@ client.on('message', message => {
   	}
 });
 client.on('message', message => {
-    if (message.content.contains == '!dyno') {
+    if (message.content.contains === '!dyno') {
     	message.reply('Dyno is known to secretly be a stegosauros');
   	}
 });
