@@ -11,7 +11,12 @@ client.on('message', message => {
   	}
 });
 client.on('message', message => {
-    if (message.content === '!dyno') {
+    if (message.content === '!olddyno') {
+    	message.reply('Dyno is known to secretly be a stegosauros');
+  	}
+});
+client.on('message', message => {
+if (message.content.contains == '!dyno') {
     	message.reply('Dyno is known to secretly be a stegosauros');
   	}
 });
