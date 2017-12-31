@@ -11,15 +11,15 @@ client.on('message', message => {
   	}
 });
 client.on('message', message => {
-    if (message.content === '!olddyno') {
+    if (message.content === '!dyno') {
     	message.reply('Dyno is known to secretly be a stegosauros');
   	}
 });
-client.on('message', message => {
-    if (message.contains == '!dyno') {
-    	message.reply('Dyno is known to secretly be a stegosauros');
-  	}
-});
+bot.on('message', message => {
+  if (message.content.startsWith("!dynocontains")) {
+        message.reply('Dyno is known to secretly contain a stegosauros');
+  }
+});            
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
