@@ -30,6 +30,10 @@ client.on('message', message => {
     	message.reply('thicc');
   	}
 });
-
+client.on('message', message => {
+    if (message.content === '!pipluspi') {
+    	message.reply('equels pumpkin pie');
+  	}
+});
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
