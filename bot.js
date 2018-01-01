@@ -15,6 +15,11 @@ client.on('message', message => {
     	message.reply('Dyno is known to secretly be a stegosauros');
   	}
 });         
+client.on('message', message => {
+    if (message.content === '!ofir') {
+    	message.reply('Ofir is known to secretly be a stegosauros');
+  	}
+});         
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
