@@ -35,5 +35,10 @@ client.on('message', message => {
     	message.reply('equels pumpkin pie');
   	}
 });
+client.on('message', message => {
+    if (message.content === '!help') {
+    	message.reply('norment.org is your life');
+  	}
+});
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
