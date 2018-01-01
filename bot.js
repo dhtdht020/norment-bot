@@ -25,6 +25,11 @@ client.on('message', message => {
     	message.reply('Trump is known to secretly be ofir26');
   	}
 });
+client.on('message', message => {
+    if (message.content === '!sesuiro') {
+    	message.reply('thicc');
+  	}
+});
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
