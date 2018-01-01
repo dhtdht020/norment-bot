@@ -14,12 +14,17 @@ client.on('message', message => {
     if (message.content === '!dyno') {
     	message.reply('Dyno is known to secretly be a stegosauros');
   	}
-});         
+});
 client.on('message', message => {
     if (message.content === '!ofir') {
-    	message.reply('Ofir is known to secretly be a stegosauros');
+    	message.reply('Ofir is known to secretly be Donald Trump');
   	}
-});         
+});
+client.on('message', message => {
+    if (message.content === '!trump') {
+    	message.reply('Trump is known to secretly be ofir26');
+  	}
+});
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
