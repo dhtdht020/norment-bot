@@ -45,6 +45,11 @@ client.on('message', message => {
     	message.reply('I dont agree.');
   	}
 });
+client.on('message', message => {
+    if (message.content === 'galaxia') {
+    	message.reply('mwans galaxy in hebrew and that other language');
+  	}
+});
 // THIS 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
