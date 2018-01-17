@@ -42,7 +42,7 @@ client.on('message', message => {
 });
 client.on('message', message => {
     if (message.content === 'agree with me pls') {
-    	message.reply('I don't agree.');
+    	message.reply('I dont agree.');
   	}
 });
 // THIS 
