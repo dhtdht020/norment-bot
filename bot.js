@@ -40,5 +40,11 @@ client.on('message', message => {
     	message.reply('norment.org is your life');
   	}
 });
+client.on('message', message => {
+    if (message.content === 'agree with me pls') {
+    	message.reply('I agree.');
+  	}
+});
+// THIS 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
