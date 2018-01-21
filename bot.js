@@ -60,6 +60,11 @@ client.on('message', message => {
     	message.reply('we call hax');
   	}
 });
+client.on('message', message => {
+    if (message.content === 'Me rich') {
+    	message.reply('we call hax');
+  	}
+});
 // THIS 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
