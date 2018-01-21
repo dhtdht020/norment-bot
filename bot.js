@@ -50,6 +50,16 @@ client.on('message', message => {
     	message.reply('mwans galaxy in hebrew and that other language');
   	}
 });
+client.on('message', message => {
+    if (message.content === 'sesuiro') {
+    	message.reply('rosesui*');
+  	}
+});
+client.on('message', message => {
+    if (message.content === 'me rich') {
+    	message.reply('we call hax');
+  	}
+});
 // THIS 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
