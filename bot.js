@@ -1,11 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
-client.on('ready', () => {
-    console.log('I am ready!');
-    bot.user.setGame('norment.org');
-});
-
 client.on('message', message => {
     if (message.content === '!toasty') {
     	message.reply('toasty will better burn.');
